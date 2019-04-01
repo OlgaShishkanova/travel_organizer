@@ -6,6 +6,14 @@ $cGrey: #f2f2f2;
 $grey: #eee;
 $white: white;
 $black: black;
+
+$peach: #FF9E5A;
+$sand: #FFC45A;
+$blue: #466BA9;
+$turquoise: #38A092;
+$pink: #FF85A2;
+$darkPeach: lighten($peach, 7%);
+
 $orangeGrey: #afa399;
 $purple: #554A73;
 $brightPurple: #432F75;
@@ -20,7 +28,7 @@ $transitionTime: 0.2s;
 
 $animTime: 0.5s;
 
-$font-family-base: 'Amatic SC', cursive;
-$font-size-base: 1.4rem;
+$font-family-base: 'Caveat', cursive;
+$font-size-mobile: 1.8rem;
 $line-height-base: 1.5;
 $text-color: #000;

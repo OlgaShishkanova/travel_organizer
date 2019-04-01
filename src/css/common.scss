@@ -29,15 +29,16 @@ html {
 
 body {
   font-family: $font-family-base;
-  font-size: $font-size-base;
+  font-size: $font-size-mobile;
   line-height: $line-height-base;
   color: $text-color;
-  background-color: $orangeGrey;
+  background-color: $white;
+  min-height: 100vh;
 }
 
 a {
   color: $brightPurple;
-  font-size: $font-size-base;
+  font-size: $font-size-mobile;
   text-decoration: none;
   border-bottom: 2px dashed $brightPurple;
   transition: all .2s;

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Switch, withRouter } from 'react-router-dom'
+import { Route, Switch, withRouter } from 'react-router-dom'
 import AuthorizedRoute from './AuthorizedRoute'
 import AuthorizedLayout from '../layouts/AuthorizedLayout'
-// import IntroPage from './IntroPage/IntroPage'
+import LogPage from './LogPage/LogPage'
 
 @withRouter
 export default class Routes extends Component {
@@ -19,7 +19,7 @@ export default class Routes extends Component {
         return (
 
             <Switch>
-                {/*<Route path='/intro/' exact component={IntroPage}/>*/}
+                <Route path='/intro/' exact component={LogPage}/>
                 <AuthorizedRoute path='/' component={AuthorizedLayout}/>
             </Switch>
 

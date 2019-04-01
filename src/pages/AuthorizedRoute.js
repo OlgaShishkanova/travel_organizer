@@ -19,7 +19,7 @@ export default class AuthorizedRoute extends Component {
             <Switch>
                 <Route render={props => {
                     return intro_name !== null
-                        ? <Component {...props} />
+                        ? <Component {...props}/>
                         : <Redirect to={{
                             pathname: '/intro/',
                             state: {referrer: this.props.location.pathname}
