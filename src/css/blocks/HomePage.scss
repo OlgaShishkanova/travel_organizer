@@ -1,11 +1,9 @@
 @import '../variables.scss';
 .home{
   &__wrapper{
-    background: $peach;
-    height: 100vh;
+    padding: 4%;
+    height: 91vh;
   }
   &__inner{
-    height: 50%;
-    background: $pink;
   }
 }
