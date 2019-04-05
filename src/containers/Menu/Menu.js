@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {connect} from "react-redux"
 import * as AppActions from "../../actions/AppActions"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCog, faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import {faSlidersH, faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 import {bindActionCreators} from "redux"
 import classNames from 'classnames'
 
@@ -24,7 +24,7 @@ export default class Menu extends Component {
                 </div>
                 <div className='menu__icon_wrapper' onClick={this.toggleSettings}>
                     <div className='menu__icon'>
-                        <FontAwesomeIcon icon={isSettings ? faArrowLeft : faCog} color="#FFC45A" size='lg'/>
+                        <FontAwesomeIcon icon={isSettings ? faArrowLeft : faSlidersH} color="black" size='lg'/>
                     </div>
                 </div>
                 <div className={classNames('settings', {isOpen: isSettings})}>

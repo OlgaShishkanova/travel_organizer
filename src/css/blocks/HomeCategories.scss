@@ -1,13 +1,13 @@
 @import '../variables.scss';
 .home_categories{
   width: 100%;
-  height: 15%;
-  margin-bottom: 5%;
+  height: 13%;
+  margin-bottom: 7%;
   border-radius: 10px;
   font-size: 3rem;
   text-align: center;
   border-bottom: none;
-  color: white;
+  color: $white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,5 +25,9 @@
   }
   &.yellow_blue{
     background-image: linear-gradient(to bottom right, $sand, $blue);
+  }
+  &:hover{
+    border-bottom: none;
+    color: $white;
   }
 }
