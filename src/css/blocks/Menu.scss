@@ -1,0 +1,35 @@
+@import '../variables.scss';
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid $sand;
+  &__title{
+    font-size: 2.7rem;
+    font-weight: bold;
+    &_wrapper{
+      padding: 2% 3%;
+      width: 85%;
+      text-align: center;
+    }
+  }
+  &__icon{
+    &_wrapper{
+      padding: 2% 3%;
+      width: 15%;
+      text-align: center;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -16%;
+        bottom: -16%;
+        width: 1.5px;
+        background-color: $sand;
+      }
+    }
+
+  }
+}
